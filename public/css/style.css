@@ -10,11 +10,11 @@ body, html {
 .affix {
 	top: 0;
 	width: 100%;
-	margin-bottom: 200px;
+
 }
 
 .affix + .container-fluid {
-	padding-top: 70px;
+	padding-top: 140px;
 }
 
 .navbar-default .navbar-brand {
