@@ -26,9 +26,9 @@
 
 		@include('inc.navbar')
 		
-		<div>
+		<div id="main">
 		
-		</div>
+		
 		@include('inc.messages')
 		@yield('mainPage')
 		@yield('healthcareCoverage')
@@ -39,6 +39,8 @@
 		@yield('contactData')
 		@yield('form')
 		@yield('content')
+			
+		</div>
 		
 
 

@@ -47,8 +47,8 @@ body, html {
 
 }
 
-navbar navbar-default navbar-fixed-top affix-top {
-	margin-bottom: 10px;
+#main {
+	margin-top: 10px;
 }
 
 /* The hero image */
