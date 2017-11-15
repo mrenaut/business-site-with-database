@@ -47,6 +47,10 @@ body, html {
 
 }
 
+nav {
+	margin-bottom: 10px;
+}
+
 /* The hero image */
 .hero-image {
 	/* The image used */
