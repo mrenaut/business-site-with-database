@@ -10,7 +10,7 @@
 
 			<table class="table table-hover ">
 				<thead>
-					<tr>
+					<tr class="info">
 						<th>#</th>
 						<th>First</th>
 						<th>Last</th>
@@ -28,7 +28,7 @@
 					@if(count($contacts) > 0)
 					@foreach($contacts as $contact)
 					
-					<tr>
+					<tr class="info">
 						<td>{{$contact->id}}</td>
 						<td>{{$contact->firstName}}</td>
 						<td>{{$contact->lastName}}</td>
