@@ -26,6 +26,8 @@
 
 		@include('inc.navbar')
 		<br>
+		<br>
+		<br>
 		@include('inc.messages')
 		
 
