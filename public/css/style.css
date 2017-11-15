@@ -5,19 +5,13 @@ body, html {
 }
 
 /* Note: Try to remove the following lines to see the effect of CSS positioning */
-
-
 .affix {
 	top: 0;
 	width: 100%;
 }
 
-.affix-top {
-	min-height: 500px;
-}
-
 .affix + .container-fluid {
-	padding-top: 140px;
+	
 }
 
 .navbar-default .navbar-brand {
@@ -52,6 +46,9 @@ body, html {
 	background-color: #40103F;
 
 }
+
+
+
 
 
 /* The hero image */
