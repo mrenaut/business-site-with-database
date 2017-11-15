@@ -5,6 +5,11 @@
 @section('form')
 
 	<div class="container" id="form">
+		
+		
+		<h1>Get a Quote!</h1>
+		<h5>Protec Insurance reviews the policies available across the major providers you trust to make sure you get the right fit for your situation and budget. </h5>
+		<h5>qui blanditiis praesentium volupta-tum deleniti atque corrupti quos dolores et quas molestias excep-turi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eli-gendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repel-lendus. Temporibus autem qui-busdam et aut officiis debitis aut rerum</h5>
 	
 
 	{!! Form::open(['action' => 'ContactsController@store', 'method' => 'POST']) !!}
