@@ -8,6 +8,7 @@ body, html {
 .affix {
 	top: 0;
 	width: 100%;
+	max-height: 10px;
 }
 
 .affix + .container-fluid {
