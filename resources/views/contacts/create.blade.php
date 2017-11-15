@@ -45,12 +45,12 @@
 			{{Form::label('message', 'Message')}}
 			{{Form::textarea('message', '', ['class' => 'form-control', 'placeholder' => 'Message'])}}
 		</div>	
-			
+		{{Form::submit('Submit', ['class'=>'btn btn-default'])}}
+		{!! Form::close() !!}
 			
 		</div>
 
-		{{Form::submit('Submit', ['class'=>'btn btn-default'])}}
-	{!! Form::close() !!}
+		
 		
 </div>
 
