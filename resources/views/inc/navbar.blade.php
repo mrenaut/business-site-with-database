@@ -69,5 +69,4 @@
 
 	</nav>
 	
-	<div id="afterNav"></div>
 </div>

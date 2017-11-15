@@ -47,9 +47,12 @@ body, html {
 
 }
 
-#afterNav {
-	padding-bottom: 300px;
+.navbarContainer {
+	
+	margin-bottom: 500px;
+	
 }
+
 
 /* The hero image */
 .hero-image {
