@@ -25,7 +25,9 @@
 
 
 		@include('inc.navbar')
+		<br>
 		@include('inc.messages')
+		
 
 		@yield('mainPage')
 		@yield('healthcareCoverage')
