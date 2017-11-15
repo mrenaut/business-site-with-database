@@ -11,12 +11,7 @@ body, html {
 }
 
 .affix + .container-fluid {
-	padding-top: 70px;
-}
-
-.nav {
-	min-height: 57px;
-	font-size: 16px;
+	
 }
 
 .navbar-default .navbar-brand {
@@ -51,6 +46,10 @@ body, html {
 	background-color: #40103F;
 
 }
+
+
+
+
 
 /* The hero image */
 .hero-image {
@@ -149,26 +148,15 @@ a {
 	padding-bottom: 150px;
 	
 }
-
-#mortgageProtectionPic {
-	max-width: 700px;
-}
 #healthcareCoverage {
 	padding-top:  150px;
 	padding-bottom: 150px;
 }
 
-#healthcareCoveragePic {
-	max-width: 700px;
-}
-
 #finalExpense  {
 	padding-top:  150px;
 	padding-bottom: 150px;
-}
 
-#finalExpensePic  {
-	max-width: 700px;
 }
 
 

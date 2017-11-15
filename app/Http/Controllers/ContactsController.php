@@ -4,7 +4,6 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Contact;
-use Mail;
 
 class ContactsController extends Controller
 {
@@ -45,7 +44,25 @@ class ContactsController extends Controller
      *
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
+	
+	
+	
+	
      */
+	
+	
+	public function sendEmail(Request $request, $id)
+	{
+		$user = User::findOrFail($id);
+
+		Mail::send('contacts.email', ['user' => '$user'], function ($m) use ($user) {
+			$m->from('businesssitewithdatabase.com', 'ProtechMortgage Family and Health');
+
+			$m->to($user->email, $user->name)->subject('Contact email from Protec website');
+		});
+	}
+
+	
     public function store(Request $request)
     {
         $this->validate($request, [
@@ -69,13 +86,10 @@ class ContactsController extends Controller
 	    $contact->save();
 	    
 	    
-		    Mail::send(['text'=>'mail'],['name', 'Melissa'], function($message){
-			    $message->to('businesssitewithdatabase@gmail.com', 'to Protec')->subject('Contact from Protec');
-			    $message->from('businesssitewithdatabase@gmail.com', 'from Protec');
-		    }); 
-
 	    return redirect('/contacts/create')->with('success', 'Your message has been sent!');
+	    sendEmail();
 	    
+
 		 
     }
 

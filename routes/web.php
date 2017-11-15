@@ -27,6 +27,10 @@ Route::get('/employeeLogin', 'PagesController@employeeLogin');
 
 Route::resource('contacts', 'ContactsController');
 
+	
+//Route::get('/contactData', 'ontactsController@contactData');
+
+
 
 
 
