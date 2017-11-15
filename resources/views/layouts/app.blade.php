@@ -15,7 +15,7 @@
 
 		<!--<link rel="stylesheet" href="https://frozen-inlet-23793.herokuapp.com/css/style.css" type="text/css">-->
 
-		<link rel="stylesheet" href="../public/css/style.css" type="text/css">
+		<link rel="stylesheet" href="https://frozen-inlet-23793.herokuapp.com/css/style.css" type="text/css">
 	</head>
 	<body>
 
