@@ -29,7 +29,7 @@
 			{{Form::label('phone', 'Phone')}}
 			{{Form::text('phone', '', ['class' => 'form-control', 'placeholder' => 'Phone Number'])}}
 		</div>	
-			<p>Check the boxes for that match the type of coverage you are interested in.</p>
+			<p>Check the boxes that match the type of coverage you are interested in.</p>
 		<div class="form-group">
 			{{Form::label('mortgageProtection', 'Mortgage Protection')}}
 			{{Form::checkbox('mortgageProtection', '1')}}
