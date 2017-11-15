@@ -53,6 +53,10 @@ body, html {
 	
 }
 
+#form {
+	margin-top: 200px;
+}
+
 
 /* The hero image */
 .hero-image {

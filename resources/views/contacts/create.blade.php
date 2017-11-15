@@ -1,22 +1,11 @@
-<!--contacts model
-$table->increments('id');
-$table->string('firstName');
-$table->string('lastName');
-$table->string('email');
-$table->string('phone');
-$table->boolean('mortgageProtection');
-$table->boolean('healthcareCoverage');
-$table->boolean('finalExpense');
-$table->string('message')->unique();
-$table->timestamps();	-->
+
 
 @extends('layouts.app')
 
 @section('form')
 
-	<div class="container">
-	<h1>Create Contact</h1>
-
+	<div class="container" id="form">
+	
 
 	{!! Form::open(['action' => 'ContactsController@store', 'method' => 'POST']) !!}
 		<div class="form-group">
