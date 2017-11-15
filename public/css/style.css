@@ -10,8 +10,7 @@ body, html {
 .affix {
 	top: 0;
 	width: 100%;
-	height: 200px;
-	padding: auto;
+	margin-bottom: 200px;
 }
 
 .affix + .container-fluid {
