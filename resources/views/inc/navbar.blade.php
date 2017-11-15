@@ -16,7 +16,7 @@
 				<a class="navbar-brand" rel="home" href="#">
 						
 						
-						<a class="navbar-brand" href="/"><img style="max-width:50px; margin-top: -7px;" src="{{URL::asset('images/logo.png')}}" id="logoPic"></a>
+						<a class="navbar-brand" href="/"><img style="max-width:50px; margin-top: -7px;" src="{{URL::asset('images/logo.png')}}"></a>
 				</a>
 				<a class="navbar-brand" href="/">PROTEC INSURANCE</a>
 			</div>

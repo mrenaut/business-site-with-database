@@ -13,37 +13,36 @@
 		<!--<link href="assets/font-awesome-4.7.0/css/font-awesome.css" rel="stylesheet">-->
 		<link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/simplex/bootstrap.min.css" rel="stylesheet" integrity="sha384-C0X5qw1DlkeV0RDunhmi4cUBUkPDTvUqzElcNWm1NI2T4k8tKMZ+wRPQOhZfSJ9N" crossorigin="anonymous">
 
-		<!--<link rel="stylesheet" href="https://frozen-inlet-23793.herokuapp.com/css/style.css" type="text/css">-->
+		<link rel="stylesheet" href="<?php echo asset('css/style.css');?> " type="text/css">
 
-		<link rel="stylesheet" href="https://frozen-inlet-23793.herokuapp.com/css/style.css" type="text/css">
 	</head>
-	<body>
+<body>
+    
+         
 
+        
+	    
+	    
+	    @include('inc.navbar')
+	    @include('inc.messages')
 
+	    @yield('mainPage')
+	    @yield('healthcareCoverage')
+	    @yield('mortgageProtection')
+	    @yield('finalExpense')
+	    @yield('contact')
+	    @yield('employeeLogin')
+	    @yield('contactData')
+	    @yield('form')
+	    @yield('content')
 
+	    
+	    
+    </div>
 
-
-
-		@include('inc.navbar')
-		@include('inc.messages')
-
-		@yield('mainPage')
-		@yield('healthcareCoverage')
-		@yield('mortgageProtection')
-		@yield('finalExpense')
-		@yield('contact')
-		@yield('employeeLogin')
-		@yield('contactData')
-		@yield('form')
-		@yield('content')
-
-
-
-		</div>
-
-	<!-- Scripts -->
+    <!-- Scripts -->
 	<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	
 
-
-</html>
+	</html>
