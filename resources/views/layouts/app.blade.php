@@ -25,16 +25,19 @@
 
 
 		@include('inc.navbar')
-		<br>
-		<br>
-		<br>
-		@include('inc.messages')
+		
+		
 		
 
 		@yield('mainPage')
 		@yield('healthcareCoverage')
 		@yield('mortgageProtection')
 		@yield('finalExpense')
+		<br>
+		<br>
+		<br>
+		
+		@include('inc.messages')
 		@yield('contact')
 		@yield('employeeLogin')
 		@yield('contactData')
