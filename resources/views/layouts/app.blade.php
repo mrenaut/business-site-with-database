@@ -25,7 +25,7 @@
 
 
 		@include('inc.navbar')
-		@include('inc.messages')
+		
 
 		@yield('mainPage')
 		@yield('healthcareCoverage')
@@ -36,6 +36,7 @@
 		@yield('contactData')
 		@yield('form')
 		@yield('content')
+		@include('inc.messages')
 
 
 
