@@ -10,7 +10,10 @@ body, html {
 .affix {
 	top: 0;
 	width: 100%;
+}
 
+.affix-top {
+	min-height: 500px;
 }
 
 .affix + .container-fluid {
@@ -48,13 +51,6 @@ body, html {
 .dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus   {
 	background-color: #40103F;
 
-}
-
-.navbarContainer {
-	
-	margin-bottom: 500px;
-	min-height: 200px;
-	
 }
 
 
