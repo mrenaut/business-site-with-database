@@ -13,8 +13,9 @@
 		<!--<link href="assets/font-awesome-4.7.0/css/font-awesome.css" rel="stylesheet">-->
 		<link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/simplex/bootstrap.min.css" rel="stylesheet" integrity="sha384-C0X5qw1DlkeV0RDunhmi4cUBUkPDTvUqzElcNWm1NI2T4k8tKMZ+wRPQOhZfSJ9N" crossorigin="anonymous">
 
-		<link rel="stylesheet" href="https://frozen-inlet-23793.herokuapp.com/css/style.css" type="text/css">
+		<!--<link rel="stylesheet" href="https://frozen-inlet-23793.herokuapp.com/css/style.css" type="text/css">-->
 
+		<link rel="stylesheet" href="../public/css/style.css" type="text/css">
 	</head>
 <body>
     
