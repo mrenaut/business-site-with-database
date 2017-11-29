@@ -48,7 +48,7 @@ body, html {
 
 }
 
-.navbar.navbar-default.navbar-fixed-top.affix-top {
+.navbar .navbar-default .navbar-fixed-top .affix-top {
     min-height: 55px;
 }
 
