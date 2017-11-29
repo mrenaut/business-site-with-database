@@ -15,8 +15,8 @@ body, html {
 	
 }
 
-.navbar-fixed-top {
-    min-height: 55px;
+#navBar {
+    min-height: 100px;
 }
 
 
