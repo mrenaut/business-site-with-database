@@ -48,8 +48,8 @@ body, html {
 
 }
 
-.navbar-header {
-    min-height: 200px;
+#header {
+    min-height: 55px;
 }
 
 
