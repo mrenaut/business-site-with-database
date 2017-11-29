@@ -16,6 +16,11 @@
 
                     You are logged in!
                 </div>
+                
+                <button>
+                                        
+                   <a href="/contacts">Go to Contacts Database</a>
+                </button>
             </div>
         </div>
     </div>
