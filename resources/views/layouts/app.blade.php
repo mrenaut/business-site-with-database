@@ -26,13 +26,11 @@
 
 		@include('inc.navbar')
 		
-		
-		
-
 		@yield('mainPage')
 		@yield('healthcareCoverage')
 		@yield('mortgageProtection')
 		@yield('finalExpense')
+		<!--temporary spacing fix, everything behind navbar-->
 		<br>
 		<br>
 		<br>

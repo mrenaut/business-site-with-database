@@ -48,6 +48,10 @@ body, html {
 
 }
 
+.navbar-fixed-top {
+    min-height: 200px;
+}
+
 
 
 

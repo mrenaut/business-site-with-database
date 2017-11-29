@@ -10,7 +10,7 @@
 		<div class="panel-body">
 			<div class="form-group">
 				<div class="form-group">
-					<label for="exampleInputPassword1">Username</label>
+				<label for="exampleInputPassword1">Username</label>
 					<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Username">
 
 				</div>
