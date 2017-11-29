@@ -18,7 +18,7 @@
 						
 						<a class="navbar-brand" href="/"><img style="max-width:40px; margin:auto;0;" src="{{URL::asset('images/logo.png')}}"></a>
 				</a>
-				<a class="navbar-brand" href="/">PROTEC INSURANCE</a>
+				<a class="navbar-brand" href="/">YO MAMA INSURANCE</a>
 			</div>
 
 			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
