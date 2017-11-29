@@ -3,6 +3,8 @@
 
 @section('navbar')
 
+<!--old navbar, not being used currently-->
+
 <div id="navbarContainer">
 	<nav class="navbar navbar-default" data-spy="affix" data-offset-top="197">
 
