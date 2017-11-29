@@ -16,7 +16,7 @@ $table->string('message')->unique();
 $table->timestamps();	-->
 
 
-<!--NOT CURRENTLY IN USE, OLD PAGE-->
+
 
 
 <div class="container-fluid" id="contact">
