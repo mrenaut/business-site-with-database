@@ -24,10 +24,14 @@ $table->timestamps();	-->
 	<div class="row">
 
 		<div class="col-lg-8 col-lg-offset-2">
-
-			<h1>Get a Quote!</h1>
-			<h5>Protec Insurance reviews the policies available across the major providers you trust to make sure you get the right fit for your situation and budget. </h5>
-			<h5>qui blanditiis praesentium volupta-tum deleniti atque corrupti quos dolores et quas molestias excep-turi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eli-gendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repel-lendus. Temporibus autem qui-busdam et aut officiis debitis aut rerum</h5>
+              
+              <h1>Get a Quote!</h1>
+              <h5>On this page a user can enter their contact infomation. There is a little validation for the inputs with error messaging if the required fields are missed.
+              </h5>
+              <h5>Once a user fills out the contact form correctly and clicks submit, a success message is received and the data from the form is entered into the MySQL database. An email is also generated notifying the business owner that a request for contact has been received. 
+              </h5>              
+              <h5>If the user registers and logs in, a button offering access to the page where the contact information from the database appears and the user acting as a logged in employee can view the information. NOTE: THIS ACCESS WOULD BE DIFFERENT ON A PRODUCTION SITE AND MUCH MORE SECURE. ACCESS IS OFFERRED ON THE NAVBAR IN THIS EXAMPLE SITE FOR DEMONSTRATION PURPOSES ONLY. PLEASE ENTER NON-SENSITIVE DATA ONLY IN THE CONTACT FORM TO TEST.
+              </h5>
 
 			
 
