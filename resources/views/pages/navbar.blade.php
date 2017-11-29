@@ -20,7 +20,7 @@
 					<a class="navbar-brand" rel="home" href="#">
 						<img style="max-width:10px; margin-top: -7px;" src="/assets/images/logo.png">
 					</a>
-					<a class="navbar-brand" href="/">PROTEC INSURANCE</a>
+					<a class="navbar-brand" href="/">yo mama INSURANCE</a>
 				</div>
 
 				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
