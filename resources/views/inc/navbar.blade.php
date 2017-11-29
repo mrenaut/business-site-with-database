@@ -1,7 +1,7 @@
 <!--old navbar, not being used currently-->
 
 <div id="navbarContainer">
-	<nav class="navbar navbar-default navbar-fixed-top" data-spy="affix" data-offset-top="197" id="header">
+	<nav class="navbar navbar-default navbar-fixed-top" data-spy="affix" data-offset-top="197" id="navBar">
 
 		<div class="container">
 
